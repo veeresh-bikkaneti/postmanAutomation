@@ -26,3 +26,8 @@ Or you can run this via Docker:
 # API
 API details can be found on the [publically deployed version of Restful-Booker](https://restful-booker.herokuapp.com/).
 
+
+# Run Postman Automation Sutie
+ ``npm run test``
+
+
