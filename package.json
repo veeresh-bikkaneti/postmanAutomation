@@ -1,0 +1,18 @@
+{
+  "name": "RestfulBooker_automation_suite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run  Fake-RestFulBooker.postman_collection.json --insecure --environment localHost_rb.postman_environment.json -r cli,junit,htmlextra"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "newman": "^5.2.0",
+    "newman-reporter-html": "^1.0.5",
+    "newman-reporter-htmlextra": "^1.19.4",
+    "newman-reporter-junitfull": "^1.1.1"
+  }
+}

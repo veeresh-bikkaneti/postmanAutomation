@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Fake-RestFulBooker" tests="24" time="3.176">
+  <testsuite name="prod / auth" id="dbf044c5-6fcb-4bc6-ad3b-56f6177a91fe" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="1.154"/>
+  <testsuite name="prod / GetBookingIds" id="dc76e018-10d4-4274-bc8d-8937825f8e59" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.148"/>
+  <testsuite name="prod / GetBooking" id="807ae036-f480-48c5-8bfa-f71d5eb96d8f" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.190"/>
+  <testsuite name="prod / CreateBooking" id="e8389562-99fc-4df7-a7d8-d9494b453c8a" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.162"/>
+  <testsuite name="prod / UpdateBooking" id="9fe73ca5-a8e1-4a78-b3de-67b9ac68ce5f" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.146"/>
+  <testsuite name="prod / PartialUpdateBooking" id="69c98a10-8cac-493f-ab14-17123177c168" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.147"/>
+  <testsuite name="prod / DeleteBooking" id="8d271a97-c633-4605-bc46-1af182444261" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.116"/>
+  <testsuite name="prod / ping" id="2531a56b-2570-4a09-be35-9a9e9ec4d4e9" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.143"/>
+  <testsuite name="local / ping-Local" id="bfbd9fb1-73aa-4968-840d-226e055e3d32" timestamp="2020-11-05T17:16:29.073Z" tests="2" failures="0" errors="0" time="0.005">
+    <testcase name="status code should be : 201" time="0.005" classname="FakeRestFulBooker"/>
+    <testcase name="response should be &quot;Created&quot;" time="0.005" classname="FakeRestFulBooker"/>
+  </testsuite>
+  <testsuite name="local / DeleteBooking-local" id="9284a1b9-5153-496c-93cc-a2a592df0150" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.004"/>
+  <testsuite name="local / CreateBooking-local" id="f1ade690-2460-4de2-b4b7-f1e604bca2b0" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.005"/>
+  <testsuite name="local / UpdateBooking-local" id="f090ded9-17f7-4532-a115-40a84535799d" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.004"/>
+  <testsuite name="local / PartialUpdateBooking-localhost" id="905a4d70-a20d-42ad-b0e4-95e2ca85d738" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.003"/>
+  <testsuite name="local / auth-localhost" id="524b933f-9a9a-4e76-84f1-4d0a75577760" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.004"/>
+  <testsuite name="local / GetBooking-local" id="5a31d9b5-2ccd-42d8-8c15-9bfeac34c355" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.005"/>
+  <testsuite name="local / GetBookingIds-localhost" id="600353c2-6702-492b-aa8a-6527f21531e4" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.004"/>
+  <testsuite name="local / auth" id="8414c51c-f1f0-419c-b2af-3f19a4e1fe5c" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.003"/>
+  <testsuite name="GET / plain request" id="dd3b49a9-5dee-46c5-a105-060c7e6b33d2" timestamp="2020-11-05T17:16:29.073Z" tests="4" failures="0" errors="0" time="0.409">
+    <testcase name="Status code is 200" time="0.409" classname="FakeRestFulBooker"/>
+    <testcase name="Body matches string" time="0.409" classname="FakeRestFulBooker"/>
+    <testcase name="Your test name" time="0.409" classname="FakeRestFulBooker"/>
+    <testcase name="Content-Type is present" time="0.409" classname="FakeRestFulBooker"/>
+  </testsuite>
+  <testsuite name="GET / dynamic search" id="7b9658bf-5f46-483e-95df-0d56f7da854b" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.145"/>
+  <testsuite name="GET / tests" id="24903b87-268f-42a7-be4b-ab021bf0aff2" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="0" time="0.106"/>
+  <testsuite name="CreateBooking-local" id="2cbcc28d-de19-4a19-afaf-d5515e8286f7" timestamp="2020-11-05T17:16:29.073Z" tests="3" failures="0" errors="0" time="0.006">
+    <testcase name="status code should be 200" time="0.006" classname="FakeRestFulBooker"/>
+    <testcase name="user Fname check: " time="0.006" classname="FakeRestFulBooker"/>
+    <testcase name="user Lname check: " time="0.006" classname="FakeRestFulBooker"/>
+  </testsuite>
+  <testsuite name="ping-Local" id="56205552-ae27-4190-9fa8-5c04b8c08d6c" timestamp="2020-11-05T17:16:29.073Z" tests="2" failures="0" errors="0" time="0.004">
+    <testcase name="status code should be : 201" time="0.004" classname="FakeRestFulBooker"/>
+    <testcase name="response should be &quot;Created&quot;" time="0.004" classname="FakeRestFulBooker"/>
+  </testsuite>
+  <testsuite name="auth-localhost" id="d199fae0-7ccd-46e4-a07f-cf2a2bca2baa" timestamp="2020-11-05T17:16:29.073Z" tests="1" failures="0" errors="0" time="0.004">
+    <testcase name="should return a token" time="0.004" classname="FakeRestFulBooker"/>
+  </testsuite>
+  <testsuite name="DeleteBooking-local" id="b530ebc5-7fb0-45ae-a620-6245fa35cf87" timestamp="2020-11-05T17:16:29.073Z" tests="0" failures="0" errors="2" time="0.004">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND undefined
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+---
+Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND undefined
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+---
+]]></system-err>
+  </testsuite>
+</testsuites>

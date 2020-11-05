@@ -1,0 +1,864 @@
+{
+	"info": {
+		"_postman_id": "8926e2c3-e953-47c5-b5ff-a697bfaae7ea",
+		"name": "Fake-RestFulBooker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "prod",
+			"item": [
+				{
+					"name": "auth",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}"
+						},
+						"url": {
+							"raw": "{{herokuapp}}/auth",
+							"host": [
+								"{{herokuapp}}"
+							],
+							"path": [
+								"auth"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetBookingIds",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{herokuapp}}",
+							"host": [
+								"{{herokuapp}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetBooking",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{herokuapp}}/booking/1",
+							"host": [
+								"{{herokuapp}}"
+							],
+							"path": [
+								"booking",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateBooking",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstname\" : \"Jim\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}"
+						},
+						"url": {
+							"raw": "{{herokuapp}}/booking",
+							"host": [
+								"{{herokuapp}}"
+							],
+							"path": [
+								"booking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateBooking",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Cookie",
+								"value": "token=53c0909113cf638"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}"
+						},
+						"url": {
+							"raw": "{{herokuapp}}/booking/1",
+							"host": [
+								"{{herokuapp}}"
+							],
+							"path": [
+								"booking",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PartialUpdateBooking",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Cookie",
+								"value": "token=53c0909113cf638"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\"\n}"
+						},
+						"url": {
+							"raw": "{{herokuapp}}/booking/1",
+							"host": [
+								"{{herokuapp}}"
+							],
+							"path": [
+								"booking",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteBooking",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Cookie",
+								"value": "token=53c0909113cf638"
+							}
+						],
+						"url": {
+							"raw": "{{herokuapp}}/booking/1",
+							"host": [
+								"{{herokuapp}}"
+							],
+							"path": [
+								"booking",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ping",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{herokuapp}}ping",
+							"host": [
+								"{{herokuapp}}ping"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "local",
+			"item": [
+				{
+					"name": "ping-Local",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "2097b76e-d1d9-4c04-9b88-0a0d6ae45212",
+								"exec": [
+									"pm.test('status code should be : 201',function(){\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"\r",
+									"pm.test('response should be \"Created\"',function(){\r",
+									"    let responsebody=pm.response.text();\r",
+									"    console.log(pm.response.text());\r",
+									"    pm.expect(responsebody).equals('Created');\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost}}ping",
+							"host": [
+								"{{localhost}}ping"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteBooking-local",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Cookie",
+								"value": "token=53c0909113cf638"
+							}
+						],
+						"url": {
+							"raw": "{{localhost}}/booking/1",
+							"host": [
+								"{{localhost}}"
+							],
+							"path": [
+								"booking",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateBooking-local",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstname\" : \"Jim\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}"
+						},
+						"url": {
+							"raw": "{{localhost}}booking",
+							"host": [
+								"{{localhost}}booking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateBooking-local",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Cookie",
+								"value": "token=bb4831563564838"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}"
+						},
+						"url": {
+							"raw": "{{localhost}}booking/1",
+							"host": [
+								"{{localhost}}booking"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PartialUpdateBooking-localhost",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Cookie",
+								"value": "token=bb4831563564838"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\"\n}"
+						},
+						"url": {
+							"raw": "{{localhost}}booking/12",
+							"host": [
+								"{{localhost}}booking"
+							],
+							"path": [
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "auth-localhost",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}"
+						},
+						"url": {
+							"raw": "{{localhost}}auth",
+							"host": [
+								"{{localhost}}auth"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetBooking-local",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost}}booking/1",
+							"host": [
+								"{{localhost}}booking"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetBookingIds-localhost",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost}}booking",
+							"host": [
+								"{{localhost}}booking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "auth",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}"
+						},
+						"url": {
+							"raw": "{{localhost}}/auth",
+							"host": [
+								"{{localhost}}"
+							],
+							"path": [
+								"auth"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "plain request",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "aa459628-373a-4f5e-87b7-2d781bfd3bdf",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Body matches string\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"delectus aut autem\");\r",
+									"});\r",
+									"pm.test(\"Your test name\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.id).to.eql(1);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Content-Type is present\", function () {\r",
+									"    pm.response.to.have.header(\"Content-Type\");\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/todos/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"todos",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "dynamic search",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "4959bbd2-dde6-435e-a339-46ca50f9a67e",
+								"exec": [
+									"pm.sendRequest(\"https://jsonplaceholder.typicode.com/todos\", function (err, responseListOfTodo) {\r",
+									"    if (responseListOfTodo) {\r",
+									"        let stringResponse = JSON.stringify(responseListOfTodo.json());\r",
+									"        let obj = JSON.parse(stringResponse);\r",
+									"        console.log(\"random: \",_.random(0, obj.count()))\r",
+									"        console.log(\"random node: \",obj[_.random(0, obj.count())].id)\r",
+									"        pm.variables.set(\"id\", obj[_.random(0, obj.count())].id);\r",
+									"    }\r",
+									"});\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/todos/{{id}}",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"todos",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tests",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "474a981c-ca9d-4ecf-9ce9-f7540e6f423b",
+								"exec": [
+									"pm.sendRequest(\"https://jsonplaceholder.typicode.com/todos\", function (err, responseListOfTodo) {\r",
+									"    if (responseListOfTodo) {\r",
+									"        let stringResponse = JSON.stringify(responseListOfTodo.json());\r",
+									"        let obj = JSON.parse(stringResponse);\r",
+									"        console.log(\"random: \",_.random(0, obj.count()))\r",
+									"        console.log(\"random node: \",obj[_.random(0, obj.count())].id)\r",
+									"        pm.variables.set(\"id\", obj[_.random(0, obj.count())].id);\r",
+									"    }\r",
+									"});\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/todos/{{id}}",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"todos",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "CreateBooking-local",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "37dbf16a-24c4-4c32-be93-37ec06752aa9",
+						"exec": [
+							"pm.test('status code should be 200',function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"var Fname=pm.variables.get(\"first_name\");\r",
+							"var Lname=pm.variables.get(\"Last_Name\");\r",
+							"pm.test('user Fname check: ',function(){\r",
+							"   let responseJson= pm.response.json();\r",
+							"   console.log(responseJson.booking.firstname);\r",
+							"   pm.expect(responseJson.booking.firstname).is.equals(Fname);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test('user Lname check: ',function(){\r",
+							"   let responseJson= pm.response.json();\r",
+							"   console.log(responseJson.booking.lastname);\r",
+							"   pm.expect(responseJson.booking.lastname).is.equals(Lname);\r",
+							"\r",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "1d90b144-5eaf-4844-93ab-7f7d73d56b0f",
+						"exec": [
+							"var first_name = [\"John\", \"Jame\", \"Robert\", \"William\", \"Michael\", \"David\", \"Richard\", \"Thomas\", \"Charles\", \"Gary\"];\r",
+							"\r",
+							"var Last_Name = [\"Linda\", \"Mary\", \"Patricia\", \"Barbara\", \"Susan\", \"Maria\", \"Sandra\", \"Nancy\", \"Deborah\", \"Kathleen\"]\r",
+							"\r",
+							"//randomly select first and last name then add to collection variables\r",
+							"pm.variables.set(\"first_name\", first_name[_.random(first_name.length - 1)]);\r",
+							"pm.variables.set(\"Last_Name\", Last_Name[_.random(Last_Name.length - 1)]);\r",
+							"\r",
+							"//the random function comes from the loaddash module (\"_\")\r",
+							"//https://lodash.com/\r",
+							"//https://github.com/lodash/lodash/blob/master/random.js\r",
+							"pm.variables.set(\"totalprice\", _.random(50, 100));\r",
+							"pm.variables.set(\"depositpaid\", _.random(1) === 1);\r",
+							"\r",
+							"//the moment module helps with data manipulatin and formatting\r",
+							"const moment = require('moment');\r",
+							"var checkin = moment().add('days', _.random(1, 180));\r",
+							"pm.variables.set(\"checkin\", checkin.format(\"YYYY-MM-DD\"));\r",
+							"\r",
+							"var checkout = moment().add('days', _.random(1, 14));\r",
+							"pm.variables.set(\"checkout\", checkout.format(\"YYYY-MM-DD\"));\r",
+							"\r",
+							"var needs=[\"breakfast\", \"lunch\",\"early checkin\",\"late checkin\", null];\r",
+							"pm.variables.set(\"additionalneeds\",needs[_.random(needs.length-1)]);\r",
+							"\r",
+							"//put all selected into new booking object\r",
+							"var booking = {\r",
+							"    \"firstname\": pm.variables.get(\"first_name\"),\r",
+							"    \"lastname\": pm.variables.get(\"Last_Name\"),\r",
+							"    \"totalprice\": pm.variables.get(\"totalprice\"),\r",
+							"    \"depositpaid\": pm.variables.get(\"depositpaid\"),\r",
+							"    \"bookingdates\": {\r",
+							"        \"checkin\": pm.variables.get(\"checkin\"),\r",
+							"        \"checkout\": pm.variables.get(\"checkout\")\r",
+							"    },\r",
+							"    \"additionalneeds\":pm.variables.get(\"additionalneeds\")\r",
+							"}\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\" : \"{{first_name}}\",\n    \"lastname\" : \"{{Last_Name}}\",\n    \"totalprice\" : \"{{totalprice}}\",\n    \"depositpaid\" : \"{{depositpaid}}\",\n    \"bookingdates\" : {\n        \"checkin\" : \"{{checkin}}\",\n        \"checkout\" : \"{{checkout}}\"\n    },\n    \"additionalneeds\" : \"{{additionalneeds}}\"\n}"
+				},
+				"url": {
+					"raw": "{{localhost}}booking",
+					"host": [
+						"{{localhost}}booking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ping-Local",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ce34ebe4-a622-469a-8ca0-9bcf74468275",
+						"exec": [
+							"pm.test('status code should be : 201',function(){\r",
+							"    console.log(pm.response.code);\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"pm.test('response should be \"Created\"',function(){\r",
+							"    let responsebody=pm.response.text();\r",
+							"    console.log(pm.response.text());\r",
+							"    pm.expect(responsebody).equals('Created');\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "07b586af-c364-40fd-bcf6-5b6142036e4e",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}ping",
+					"host": [
+						"{{localhost}}ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "auth-localhost",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f32bd52e-de33-4c55-8b1d-bb003d825db2",
+						"exec": [
+							"pm.test('should return a token',function(){\r",
+							"    var token=pm.response.json().token;\r",
+							"    pm.expect(token).to.exist;\r",
+							"    console.log(\"generated Token:\"+pm.response.json().token);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}"
+				},
+				"url": {
+					"raw": "{{localhost}}auth",
+					"host": [
+						"{{localhost}}auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteBooking-local",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "bf1ea0f2-43ca-4ea7-b3a7-dcb08125a86a",
+						"exec": [
+							"// Example with a full-fledged request\r",
+							"const createBooking = {\r",
+							"  url: pm.environment.get(\"localHost rb\")+\"/booking\",\r",
+							"  method: 'POST',\r",
+							"  header: {\r",
+							"    'Content-Type': 'application/json',\r",
+							"  },\r",
+							"  body: {\r",
+							"    mode: 'raw',\r",
+							"    raw: JSON.stringify(pm.variables.get(\"booking\"))\r",
+							"  }\r",
+							"};\r",
+							"\r",
+							"pm.sendRequest(createBooking, (error, response) => {\r",
+							"  console.log(error ? error : response.json());\r",
+							"  pm.expect(err).is.null;\r",
+							"  pm.variables.set(\"booking_id\",response.json().bookingid);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "token=53c0909113cf638"
+					}
+				],
+				"url": {
+					"raw": "{{localhost}}/booking/{{booking_id}}",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"booking",
+						"{{booking_id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "8c8a2830-07c6-4aba-ba5f-0d4a6b4ce4e6",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "95eaa7b9-5192-4ecd-8b76-ed08ed3d255b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
