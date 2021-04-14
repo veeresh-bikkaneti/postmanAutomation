@@ -1,18 +1,19 @@
 {
-  "name": "RestfulBooker_automation_suite",
+  "name": "Practise",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Getting Started with Angular**\r - Refer the URL: [https://www.npmjs.com/package/newman]\r - node --version\r - npm --version\r - npm install -i newman\r     - g - global\r     - i - local to the folder\r - ng --version",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "newman": "^5.2.2",
+    "newman-reporter-confluence": "^1.0.0",
+    "newman-reporter-html": "^1.0.5",
+    "newman-reporter-htmlextra": "^1.20.3"
+  },
   "scripts": {
-    "test": "newman run  Fake-RestFulBooker.postman_collection.json --insecure --environment localHost_rb.postman_environment.json -r cli,junit,htmlextra"
+    "test": "newman run Fake-RestFulBooker.postman_collection.json --insecure -d testdata.csv --reporters cli,json,junit,html --reporter-json-export ./results/outputfile.json --reporter-junit-export ./results/ --reporter-html-export ./results/htmlreport.html -r htmlextra,confluence --reporter-htmlextra-export ./results/htmlextrareport.html --reporter-htmlextra-browserTitle \"My Newman report\"   --reporter-confluence-export ./results/template-default.wiki "
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "newman": "^5.2.0",
-    "newman-reporter-html": "^1.0.5",
-    "newman-reporter-htmlextra": "^1.19.4",
-    "newman-reporter-junitfull": "^1.1.1"
-  }
+  "author": "Veeresh Bikkaneti",
+  "license": "ISC"
 }

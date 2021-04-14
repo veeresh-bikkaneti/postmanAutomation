@@ -1,0 +1,2638 @@
+
+
+
+
+    {section}{column:width=30%}Time{column}{column:width:70%}Wed Apr 14 2021 15:05:24 GMT-0500 (Central Daylight Time){column}{section}
+    {section}{column:width=30%}Exported with{column}{column:width:70%}Newman v5.2.2{column}{section}
+
+h2. Base Information
+
+    | ||Total||Failed||
+    |Iterations|5|0|
+    |Requests|180|0|
+    |Prerequest Scripts|80|0|
+    |Test Scripts|105|*{color:red}10{color}*|
+    |Assertions|70|*{color:red}16{color}*|
+
+
+    {section}{column:width=30%}Total run duration{column}{column:width:70%}17.9s{column}{section}
+    {section}{column:width=30%}Total data received{column}{column:width:70%}6.73KB{column}{section}
+    {section}{column:width=30%}Average response time{column}{column:width:70%}67ms{column}{section}
+
+    {section}{column:width=30%}Total Failures{column}{column:width:70%}*26*{column}{section}
+
+        h2. Failures
+
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#75993307-9254-4e1f-862a-e713bc79458d]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}1{column}{section}
+                {expand}
+            {warning}
+            {warning:title=JSONError: Unexpected token &#x27;M&#x27; at 1:1
+Method Not Allowed
+^ }
+                {expand:Details...}
+                    {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#75993307-9254-4e1f-862a-e713bc79458d]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}1{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 404{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#c7b3cadf-2c06-46a1-8f53-dbbbfe931ab0]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}1{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#7b51e6c3-e811-4db9-9307-cee73040ebb6]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}1{column}{section}
+                {expand}
+            {warning}
+            {warning:title=JSONError: Unexpected token &#x27;M&#x27; at 1:1
+Method Not Allowed
+^ }
+                {expand:Details...}
+                    {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#7b51e6c3-e811-4db9-9307-cee73040ebb6]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}1{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#eda6fc00-dad6-4ecc-a265-0b7439fef748]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}2{column}{section}
+                {expand}
+            {warning}
+            {warning:title=JSONError: Unexpected token &#x27;M&#x27; at 1:1
+Method Not Allowed
+^ }
+                {expand:Details...}
+                    {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#eda6fc00-dad6-4ecc-a265-0b7439fef748]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}2{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 404{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#0f2b6071-6e4d-4437-9e4a-b3ac69a5cd1e]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}2{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#6f8b748c-eddd-45ac-af8a-6f6b80e144a2]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}2{column}{section}
+                {expand}
+            {warning}
+            {warning:title=JSONError: Unexpected token &#x27;M&#x27; at 1:1
+Method Not Allowed
+^ }
+                {expand:Details...}
+                    {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#6f8b748c-eddd-45ac-af8a-6f6b80e144a2]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}2{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#1fe92f11-ba8a-48f6-a3ee-5c0bc9534e7e]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}3{column}{section}
+                {expand}
+            {warning}
+            {warning:title=JSONError: Unexpected token &#x27;M&#x27; at 1:1
+Method Not Allowed
+^ }
+                {expand:Details...}
+                    {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#1fe92f11-ba8a-48f6-a3ee-5c0bc9534e7e]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}3{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 404{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#91c02ba4-b7c6-4c44-8958-bb2000117076]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}3{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#1ce9e212-df79-4414-aaf5-0edaf82c3fcf]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}3{column}{section}
+                {expand}
+            {warning}
+            {warning:title=JSONError: Unexpected token &#x27;M&#x27; at 1:1
+Method Not Allowed
+^ }
+                {expand:Details...}
+                    {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#1ce9e212-df79-4414-aaf5-0edaf82c3fcf]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}3{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#da4f0771-6299-4352-ab43-f4924b4eca4b]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}4{column}{section}
+                {expand}
+            {warning}
+            {warning:title=JSONError: Unexpected token &#x27;M&#x27; at 1:1
+Method Not Allowed
+^ }
+                {expand:Details...}
+                    {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#da4f0771-6299-4352-ab43-f4924b4eca4b]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}4{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 404{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#4a016724-55c3-44f0-bdb0-afc46658e975]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}4{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#04216faf-0098-4726-8e67-5e8ee893d90f]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}4{column}{section}
+                {expand}
+            {warning}
+            {warning:title=JSONError: Unexpected token &#x27;M&#x27; at 1:1
+Method Not Allowed
+^ }
+                {expand:Details...}
+                    {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#04216faf-0098-4726-8e67-5e8ee893d90f]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}4{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#c222d3e4-ed9c-403c-954f-a0e7733e8bf0]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}5{column}{section}
+                {expand}
+            {warning}
+            {warning:title=JSONError: Unexpected token &#x27;M&#x27; at 1:1
+Method Not Allowed
+^ }
+                {expand:Details...}
+                    {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#c222d3e4-ed9c-403c-954f-a0e7733e8bf0]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}5{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 404{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#1acc5a39-8081-4fc1-b5ae-c6cb446cb196]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}5{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 200 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#6f5ae74f-0fdd-4be6-bd90-28900c7cac0a]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}5{column}{section}
+                {expand}
+            {warning}
+            {warning:title=JSONError: Unexpected token &#x27;M&#x27; at 1:1
+Method Not Allowed
+^ }
+                {expand:Details...}
+                    {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#6f5ae74f-0fdd-4be6-bd90-28900c7cac0a]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}5{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 201 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 201 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[DeleteBooking|#c991f357-207a-4505-90d3-5fd8f79aa9b9]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}5{column}{section}
+                {expand}
+            {warning}
+h2. Requests
+
+            {anchor:05b06f58-4ba1-49cd-b3dd-fbc86cba5244 }
+                {tip:title=auth }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}POST{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/auth|https://restful-booker.herokuapp.com/auth]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}27B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                           "username" : "admin",
+                            "password" : "password123"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "token": "ae31272545b1fed"
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:ad038adc-664a-4687-a244-98d37f6743aa }
+                {tip:title=GetBookingIds }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/|https://restful-booker.herokuapp.com/booking/]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}74ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}69B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        [
+                          {
+                            "bookingid": 43
+                          },
+                          {
+                            "bookingid": 42
+                          },
+                          {
+                            "bookingid": 44
+                          },
+                          {
+                            "bookingid": 41
+                          }
+                        ]{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:0ea467c2-ef55-429c-9a46-5df1f6ca520c }
+                {tip:title=GetBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}404{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Not Found{code}
+                                    {column}
+                                {section}
+                        
+                    {expand}
+                {tip}
+            {anchor:56114fa2-c295-43c0-9079-715d7fe9abbb }
+                {tip:title=CreateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}POST{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking|https://restful-booker.herokuapp.com/booking]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}195B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}9{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "june",
+                            "lastname" : "kape",
+                            "totalprice" : 111,
+                            "depositpaid" : true,
+                            "bookingdates" : {
+                                "checkin" : "2018-01-01",
+                                "checkout" : "2019-01-01"
+                            },
+                            "additionalneeds" : "Breakfast"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "bookingid": 45,
+                          "booking": {
+                            "firstname": "june",
+                            "lastname": "kape",
+                            "totalprice": 111,
+                            "depositpaid": true,
+                            "bookingdates": {
+                              "checkin": "2018-01-01",
+                              "checkout": "2019-01-01"
+                            },
+                            "additionalneeds": "Breakfast"
+                          }
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |firstname|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |lastname|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:bd9a0599-2cbc-4d24-92e0-38d949b4cee8 }
+                {tip:title=UpdateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PUT{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/42|https://restful-booker.herokuapp.com/booking/42]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}168B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}12{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "june",
+                            "lastname" : "kape",
+                            "totalprice" : 111,
+                            "depositpaid" : true,
+                            "bookingdates" : {
+                                "checkin" : "2018-01-01",
+                                "checkout" : "2019-01-01"
+                            },
+                            "additionalneeds" : "Breakfast"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "firstname": "june",
+                          "lastname": "kape",
+                          "totalprice": 111,
+                          "depositpaid": true,
+                          "bookingdates": {
+                            "checkin": "2018-01-01",
+                            "checkout": "2019-01-01"
+                          },
+                          "additionalneeds": "Breakfast"
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |firstname|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |lastname|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:75993307-9254-4e1f-862a-e713bc79458d }
+                {warning:title=PartialUpdateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/2|https://restful-booker.herokuapp.com/booking/2]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}72ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}4{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "june",
+                            "lastname" : "kape"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Method Not Allowed{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=4|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:c69de93a-25a7-4254-8565-cbddf1d1e4c2 }
+                {tip:title=DeleteBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/44|https://restful-booker.herokuapp.com/booking/44]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:bb53ddde-f282-4659-8f8f-11908a919520 }
+                {tip:title=ping }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/ping|https://restful-booker.herokuapp.com/ping]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}68ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:c7b3cadf-2c06-46a1-8f53-dbbbfe931ab0 }
+                {warning:title=GetBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}59ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}3{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}404{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Not Found{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=3|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:7b51e6c3-e811-4db9-9307-cee73040ebb6 }
+                {warning:title=PartialUpdateBooking Copy }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/3|https://restful-booker.herokuapp.com/booking/3]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}59ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}4{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                             "firstname" : "James",
+                            "lastname" : "Brown"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Method Not Allowed{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=4|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:a4393dfd-310b-4c03-b18f-ae4ba0bd5c18 }
+                {tip:title=DeleteBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/41|https://restful-booker.herokuapp.com/booking/41]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}67ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:f216da7c-7138-459e-8030-0632ac9936e6 }
+                {tip:title=auth }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}POST{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/auth|https://restful-booker.herokuapp.com/auth]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}27B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                           "username" : "admin",
+                            "password" : "password123"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "token": "c2bd6e87bc0f24e"
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:17472457-fd80-40c1-9dc3-05f87e40662f }
+                {tip:title=GetBookingIds }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/|https://restful-booker.herokuapp.com/booking/]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}52B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        [
+                          {
+                            "bookingid": 43
+                          },
+                          {
+                            "bookingid": 45
+                          },
+                          {
+                            "bookingid": 42
+                          }
+                        ]{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:e9399c6c-eed8-44d6-8ec6-57cc0785179b }
+                {tip:title=GetBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}59ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}404{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Not Found{code}
+                                    {column}
+                                {section}
+                        
+                    {expand}
+                {tip}
+            {anchor:a81d0c26-ccb4-4884-a404-231f5a05e176 }
+                {tip:title=CreateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}POST{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking|https://restful-booker.herokuapp.com/booking]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}68ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}195B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}9{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "Raj",
+                            "lastname" : "kumar",
+                            "totalprice" : 111,
+                            "depositpaid" : true,
+                            "bookingdates" : {
+                                "checkin" : "2018-01-01",
+                                "checkout" : "2019-01-01"
+                            },
+                            "additionalneeds" : "Breakfast"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "bookingid": 46,
+                          "booking": {
+                            "firstname": "Raj",
+                            "lastname": "kumar",
+                            "totalprice": 111,
+                            "depositpaid": true,
+                            "bookingdates": {
+                              "checkin": "2018-01-01",
+                              "checkout": "2019-01-01"
+                            },
+                            "additionalneeds": "Breakfast"
+                          }
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |firstname|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |lastname|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:d5f2e28d-453e-472a-8c0a-854220674345 }
+                {tip:title=UpdateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PUT{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/42|https://restful-booker.herokuapp.com/booking/42]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}77ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}168B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}12{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "Raj",
+                            "lastname" : "kumar",
+                            "totalprice" : 111,
+                            "depositpaid" : true,
+                            "bookingdates" : {
+                                "checkin" : "2018-01-01",
+                                "checkout" : "2019-01-01"
+                            },
+                            "additionalneeds" : "Breakfast"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "firstname": "Raj",
+                          "lastname": "kumar",
+                          "totalprice": 111,
+                          "depositpaid": true,
+                          "bookingdates": {
+                            "checkin": "2018-01-01",
+                            "checkout": "2019-01-01"
+                          },
+                          "additionalneeds": "Breakfast"
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |firstname|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |lastname|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:eda6fc00-dad6-4ecc-a265-0b7439fef748 }
+                {warning:title=PartialUpdateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/3|https://restful-booker.herokuapp.com/booking/3]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}4{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "Raj",
+                            "lastname" : "kumar"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Method Not Allowed{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=4|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:0ef12a36-4c6d-4b56-ac70-783dd61fb1c3 }
+                {tip:title=DeleteBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/46|https://restful-booker.herokuapp.com/booking/46]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}65ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:d23358c1-a547-419a-9dfc-5aa38ed6099d }
+                {tip:title=ping }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/ping|https://restful-booker.herokuapp.com/ping]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:0f2b6071-6e4d-4437-9e4a-b3ac69a5cd1e }
+                {warning:title=GetBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}3{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}404{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Not Found{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=3|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:6f8b748c-eddd-45ac-af8a-6f6b80e144a2 }
+                {warning:title=PartialUpdateBooking Copy }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}4{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                             "firstname" : "James",
+                            "lastname" : "Brown"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Method Not Allowed{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=4|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:201bfd34-0583-4e68-a1ec-c0726787e481 }
+                {tip:title=DeleteBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/42|https://restful-booker.herokuapp.com/booking/42]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:52dd82c7-5ade-4fbd-9936-f44e4f5783c7 }
+                {tip:title=auth }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}POST{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/auth|https://restful-booker.herokuapp.com/auth]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}27B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                           "username" : "admin",
+                            "password" : "password123"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "token": "3641603623d03ca"
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:45cb2285-d646-4273-a11f-938a56a83125 }
+                {tip:title=GetBookingIds }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/|https://restful-booker.herokuapp.com/booking/]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}66ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}35B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        [
+                          {
+                            "bookingid": 43
+                          },
+                          {
+                            "bookingid": 45
+                          }
+                        ]{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:d6877f5c-37a7-4460-91e3-5f8cc69e8fd5 }
+                {tip:title=GetBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}404{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Not Found{code}
+                                    {column}
+                                {section}
+                        
+                    {expand}
+                {tip}
+            {anchor:1fcdbde2-9583-4e24-8ac6-48ae22d1aee1 }
+                {tip:title=CreateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}POST{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking|https://restful-booker.herokuapp.com/booking]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}196B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}9{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "Sam",
+                            "lastname" : "Austin",
+                            "totalprice" : 111,
+                            "depositpaid" : true,
+                            "bookingdates" : {
+                                "checkin" : "2018-01-01",
+                                "checkout" : "2019-01-01"
+                            },
+                            "additionalneeds" : "Breakfast"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "bookingid": 47,
+                          "booking": {
+                            "firstname": "Sam",
+                            "lastname": "Austin",
+                            "totalprice": 111,
+                            "depositpaid": true,
+                            "bookingdates": {
+                              "checkin": "2018-01-01",
+                              "checkout": "2019-01-01"
+                            },
+                            "additionalneeds": "Breakfast"
+                          }
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |firstname|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |lastname|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:ab87d362-4db8-41ac-9ddc-ebd0798f9291 }
+                {tip:title=UpdateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PUT{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/45|https://restful-booker.herokuapp.com/booking/45]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}169B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}12{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "Sam",
+                            "lastname" : "Austin",
+                            "totalprice" : 111,
+                            "depositpaid" : true,
+                            "bookingdates" : {
+                                "checkin" : "2018-01-01",
+                                "checkout" : "2019-01-01"
+                            },
+                            "additionalneeds" : "Breakfast"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "firstname": "Sam",
+                          "lastname": "Austin",
+                          "totalprice": 111,
+                          "depositpaid": true,
+                          "bookingdates": {
+                            "checkin": "2018-01-01",
+                            "checkout": "2019-01-01"
+                          },
+                          "additionalneeds": "Breakfast"
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |firstname|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |lastname|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:1fe92f11-ba8a-48f6-a3ee-5c0bc9534e7e }
+                {warning:title=PartialUpdateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}4{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "Sam",
+                            "lastname" : "Austin"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Method Not Allowed{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=4|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:46fe159a-1b50-4b39-b281-99af29506bbf }
+                {tip:title=DeleteBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/45|https://restful-booker.herokuapp.com/booking/45]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}67ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:3f974938-9308-40ab-ba11-5ac4f7ebe275 }
+                {tip:title=ping }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/ping|https://restful-booker.herokuapp.com/ping]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:91c02ba4-b7c6-4c44-8958-bb2000117076 }
+                {warning:title=GetBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}239ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}3{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}404{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Not Found{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=3|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:1ce9e212-df79-4414-aaf5-0edaf82c3fcf }
+                {warning:title=PartialUpdateBooking Copy }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}4{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                             "firstname" : "James",
+                            "lastname" : "Brown"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Method Not Allowed{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=4|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:32105221-3bbe-4393-8470-a9b1b79bfa28 }
+                {tip:title=DeleteBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/47|https://restful-booker.herokuapp.com/booking/47]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}68ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:83586607-c1c5-459f-8ccf-7af8d860f5f6 }
+                {tip:title=auth }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}POST{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/auth|https://restful-booker.herokuapp.com/auth]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}59ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}27B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                           "username" : "admin",
+                            "password" : "password123"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "token": "25870c438c55f7c"
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:5d818a40-6756-4e7b-919a-83b12a77cf15 }
+                {tip:title=GetBookingIds }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/|https://restful-booker.herokuapp.com/booking/]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        [
+                          {
+                            "bookingid": 43
+                          }
+                        ]{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:a5634512-76e2-4006-8d31-14c6ee1ebd4e }
+                {tip:title=GetBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}81ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}404{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Not Found{code}
+                                    {column}
+                                {section}
+                        
+                    {expand}
+                {tip}
+            {anchor:cdc78f3d-6ff4-4c41-8e4a-9f364e341625 }
+                {tip:title=CreateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}POST{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking|https://restful-booker.herokuapp.com/booking]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}197B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}9{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "Mike",
+                            "lastname" : "Morgan",
+                            "totalprice" : 111,
+                            "depositpaid" : true,
+                            "bookingdates" : {
+                                "checkin" : "2018-01-01",
+                                "checkout" : "2019-01-01"
+                            },
+                            "additionalneeds" : "Breakfast"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "bookingid": 48,
+                          "booking": {
+                            "firstname": "Mike",
+                            "lastname": "Morgan",
+                            "totalprice": 111,
+                            "depositpaid": true,
+                            "bookingdates": {
+                              "checkin": "2018-01-01",
+                              "checkout": "2019-01-01"
+                            },
+                            "additionalneeds": "Breakfast"
+                          }
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |firstname|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |lastname|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:8d40449c-eddf-4c4d-95d6-93880e7f797c }
+                {tip:title=UpdateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PUT{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/43|https://restful-booker.herokuapp.com/booking/43]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}170B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}12{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "Mike",
+                            "lastname" : "Morgan",
+                            "totalprice" : 111,
+                            "depositpaid" : true,
+                            "bookingdates" : {
+                                "checkin" : "2018-01-01",
+                                "checkout" : "2019-01-01"
+                            },
+                            "additionalneeds" : "Breakfast"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "firstname": "Mike",
+                          "lastname": "Morgan",
+                          "totalprice": 111,
+                          "depositpaid": true,
+                          "bookingdates": {
+                            "checkin": "2018-01-01",
+                            "checkout": "2019-01-01"
+                          },
+                          "additionalneeds": "Breakfast"
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |firstname|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |lastname|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:da4f0771-6299-4352-ab43-f4924b4eca4b }
+                {warning:title=PartialUpdateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}4{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "Mike",
+                            "lastname" : "Morgan"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Method Not Allowed{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=4|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:454a27bf-d911-4b77-8a93-13d25a0afdaa }
+                {tip:title=DeleteBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/43|https://restful-booker.herokuapp.com/booking/43]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}68ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:2a032610-872e-4f26-b417-2eddb9342606 }
+                {tip:title=ping }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/ping|https://restful-booker.herokuapp.com/ping]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}63ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:4a016724-55c3-44f0-bdb0-afc46658e975 }
+                {warning:title=GetBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}71ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}3{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}404{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Not Found{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=3|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:04216faf-0098-4726-8e67-5e8ee893d90f }
+                {warning:title=PartialUpdateBooking Copy }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}4{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                             "firstname" : "James",
+                            "lastname" : "Brown"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Method Not Allowed{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=4|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:e367b84d-c6a7-4678-812f-098300f865de }
+                {tip:title=DeleteBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/48|https://restful-booker.herokuapp.com/booking/48]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}65ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:65da4a31-0617-43db-b286-949c29fbb3e3 }
+                {tip:title=auth }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}POST{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/auth|https://restful-booker.herokuapp.com/auth]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}27B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                           "username" : "admin",
+                            "password" : "password123"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "token": "237dfa034c86ba0"
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:2621a60a-b85d-425d-8a53-437d67baf009 }
+                {tip:title=GetBookingIds }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/|https://restful-booker.herokuapp.com/booking/]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}63ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}2B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        []{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:44d133aa-c5d8-465c-8aee-20822ec07525 }
+                {tip:title=GetBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}87ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}404{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Not Found{code}
+                                    {column}
+                                {section}
+                        
+                    {expand}
+                {tip}
+            {anchor:abfec09a-beb6-4e35-baf9-a9fd619bebcf }
+                {tip:title=CreateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}POST{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking|https://restful-booker.herokuapp.com/booking]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}198B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}9{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "Brett",
+                            "lastname" : "Ramsey",
+                            "totalprice" : 111,
+                            "depositpaid" : true,
+                            "bookingdates" : {
+                                "checkin" : "2018-01-01",
+                                "checkout" : "2019-01-01"
+                            },
+                            "additionalneeds" : "Breakfast"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "bookingid": 49,
+                          "booking": {
+                            "firstname": "Brett",
+                            "lastname": "Ramsey",
+                            "totalprice": 111,
+                            "depositpaid": true,
+                            "bookingdates": {
+                              "checkin": "2018-01-01",
+                              "checkout": "2019-01-01"
+                            },
+                            "additionalneeds": "Breakfast"
+                          }
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |firstname|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |lastname|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:fbdea96f-6093-452b-968e-07c5e60ff7d8 }
+                {tip:title=UpdateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PUT{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/49|https://restful-booker.herokuapp.com/booking/49]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}65ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}171B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}12{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}200{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "Brett",
+                            "lastname" : "Ramsey",
+                            "totalprice" : 111,
+                            "depositpaid" : true,
+                            "bookingdates" : {
+                                "checkin" : "2018-01-01",
+                                "checkout" : "2019-01-01"
+                            },
+                            "additionalneeds" : "Breakfast"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        {
+                          "firstname": "Brett",
+                          "lastname": "Ramsey",
+                          "totalprice": 111,
+                          "depositpaid": true,
+                          "bookingdates": {
+                            "checkin": "2018-01-01",
+                            "checkout": "2019-01-01"
+                          },
+                          "additionalneeds": "Breakfast"
+                        }{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |firstname|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |lastname|{status:colour=Green|title=4|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:c222d3e4-ed9c-403c-954f-a0e7733e8bf0 }
+                {warning:title=PartialUpdateBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}4{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                            "firstname" : "Brett",
+                            "lastname" : "Ramsey"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Method Not Allowed{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=4|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:722b9206-443f-416f-a868-5fb7d29970ac }
+                {tip:title=DeleteBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/49|https://restful-booker.herokuapp.com/booking/49]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:addee9ec-10f0-477c-aacb-7005354d9859 }
+                {tip:title=ping }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/ping|https://restful-booker.herokuapp.com/ping]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}59ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Created{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {tip}
+            {anchor:1acc5a39-8081-4fc1-b5ae-c6cb446cb196 }
+                {warning:title=GetBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}GET{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}3{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}404{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Not Found{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=3|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:6f5ae74f-0fdd-4be6-bd90-28900c7cac0a }
+                {warning:title=PartialUpdateBooking Copy }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}63ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}4{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
+                        
+                                    {section}
+                                        {column:width=30%}
+                                            Request body
+                                        {column}
+                                        {column:width=70%}
+                                            {code:language=js|linenumbers=true}
+                        {
+                             "firstname" : "James",
+                            "lastname" : "Brown"
+                        }{code}
+                                        {column}
+                                    {section}
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Method Not Allowed{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 200|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=4|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+            {anchor:c991f357-207a-4505-90d3-5fd8f79aa9b9 }
+                {warning:title=DeleteBooking }
+                    {expand:Details...}
+                        
+                                {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
+                        
+                        
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}65ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                        
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}3{column}{section}
+                        
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
+                        
+                        
+                                {section}
+                                    {column:width=30%}Response body{column}
+                                    {column:width=70%}
+                                        {code:language=js|linenumbers=true}
+                        Method Not Allowed{code}
+                                    {column}
+                                {section}
+                        
+                                {section}
+                                    {column:width=30%}Tests{column}
+                                    {column:width=70%}
+                                        ||Name||Pass count||Fail count||
+                                            |Status code is 201|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=3|subtle=false}|
+                                    {column}
+                                {section}
+                    {expand}
+                {warning}
+
+
+
+
+
+
+    {excerpt:hidden=true|atlassian-macro-output-type=BLOCK}
+        {status:colour=Red|title=FAILED (26 errors)|subtle=false} Wed Apr 14 2021 15:05:24 GMT-0500 (Central Daylight Time)
+    {excerpt}
