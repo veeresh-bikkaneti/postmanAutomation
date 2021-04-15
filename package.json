@@ -11,7 +11,7 @@
     "newman-reporter-htmlextra": "^1.20.3"
   },
   "scripts": {
-    "test":"newman run Fake-RestFulBooker.postman_collection.json --insecure -d testdata.csv  --reporters cli,json,junit,html --reporter-json-export ./results/outputfile.json --reporter-junit-export ./results/junit.xml --reporter-html-export ./results/htmlreport.html -r cli,htmlextra,confluence --reporter-htmlextra-export ./results/htmlextrareport.html --reporter-htmlextra-browserTitle \"My Newman report\"   --reporter-confluence-export ./results/template-default.wiki"
+    "test": "newman run Fake-RestFulBooker.postman_collection.json --insecure -d testdata.csv  -r cli,json,junit,html,htmlextra,confluence --reporter-json-export ./results/outputfile.json --reporter-junit-export ./results/junit.xml --reporter-html-export ./results/htmlreport.html   --reporter-htmlextra-export ./results/htmlextrareport.html --reporter-htmlextra-browserTitle \"My Newman report\"   --reporter-confluence-export ./results/template-default.wiki"
   },
   "keywords": [],
   "author": "Veeresh Bikkaneti",

@@ -2,7 +2,7 @@
 
 
 
-    {section}{column:width=30%}Time{column}{column:width:70%}Wed Apr 14 2021 15:05:24 GMT-0500 (Central Daylight Time){column}{section}
+    {section}{column:width=30%}Time{column}{column:width:70%}Wed Apr 14 2021 21:44:49 GMT-0500 (Central Daylight Time){column}{section}
     {section}{column:width=30%}Exported with{column}{column:width:70%}Newman v5.2.2{column}{section}
 
 h2. Base Information
@@ -12,14 +12,14 @@ h2. Base Information
     |Requests|180|0|
     |Prerequest Scripts|80|0|
     |Test Scripts|105|*{color:red}10{color}*|
-    |Assertions|70|*{color:red}16{color}*|
+    |Assertions|70|*{color:red}20{color}*|
 
 
-    {section}{column:width=30%}Total run duration{column}{column:width:70%}17.9s{column}{section}
-    {section}{column:width=30%}Total data received{column}{column:width:70%}6.73KB{column}{section}
-    {section}{column:width=30%}Average response time{column}{column:width:70%}67ms{column}{section}
+    {section}{column:width=30%}Total run duration{column}{column:width:70%}19.4s{column}{section}
+    {section}{column:width=30%}Total data received{column}{column:width:70%}4.32KB{column}{section}
+    {section}{column:width=30%}Average response time{column}{column:width:70%}75ms{column}{section}
 
-    {section}{column:width=30%}Total Failures{column}{column:width:70%}*26*{column}{section}
+    {section}{column:width=30%}Total Failures{column}{column:width:70%}*30*{column}{section}
 
         h2. Failures
 
@@ -27,7 +27,7 @@ h2. Base Information
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#75993307-9254-4e1f-862a-e713bc79458d]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#29641489-bbaa-4fbd-b9aa-965bd28e6de1]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}1{column}{section}
                 {expand}
             {warning}
@@ -36,7 +36,7 @@ Method Not Allowed
 ^ }
                 {expand:Details...}
                     {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#75993307-9254-4e1f-862a-e713bc79458d]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#29641489-bbaa-4fbd-b9aa-965bd28e6de1]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}1{column}{section}
                 {expand}
             {warning}
@@ -44,7 +44,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 404{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#c7b3cadf-2c06-46a1-8f53-dbbbfe931ab0]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#4f93e873-b441-4bcb-a2ca-24f211bc3a80]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}1{column}{section}
                 {expand}
             {warning}
@@ -52,7 +52,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#7b51e6c3-e811-4db9-9307-cee73040ebb6]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#302a7523-52fd-4b6a-a7b3-80cbec6b382d]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}1{column}{section}
                 {expand}
             {warning}
@@ -61,7 +61,15 @@ Method Not Allowed
 ^ }
                 {expand:Details...}
                     {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#7b51e6c3-e811-4db9-9307-cee73040ebb6]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#302a7523-52fd-4b6a-a7b3-80cbec6b382d]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}1{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 201 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 201 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[DeleteBooking|#eb415c8d-73ee-4c3c-8b48-1fe20be87cfa]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}1{column}{section}
                 {expand}
             {warning}
@@ -69,7 +77,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#eda6fc00-dad6-4ecc-a265-0b7439fef748]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#d4d182e5-bcf5-4e7d-8493-facc62a6fc3c]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}2{column}{section}
                 {expand}
             {warning}
@@ -78,7 +86,7 @@ Method Not Allowed
 ^ }
                 {expand:Details...}
                     {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#eda6fc00-dad6-4ecc-a265-0b7439fef748]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#d4d182e5-bcf5-4e7d-8493-facc62a6fc3c]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}2{column}{section}
                 {expand}
             {warning}
@@ -86,7 +94,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 404{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#0f2b6071-6e4d-4437-9e4a-b3ac69a5cd1e]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#8524567c-538f-43ee-9ed3-347cf6ecb46b]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}2{column}{section}
                 {expand}
             {warning}
@@ -94,7 +102,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#6f8b748c-eddd-45ac-af8a-6f6b80e144a2]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#9c682f11-b498-4b67-9f74-fc91f4d0ac78]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}2{column}{section}
                 {expand}
             {warning}
@@ -103,7 +111,15 @@ Method Not Allowed
 ^ }
                 {expand:Details...}
                     {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#6f8b748c-eddd-45ac-af8a-6f6b80e144a2]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#9c682f11-b498-4b67-9f74-fc91f4d0ac78]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}2{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 201 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 201 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[DeleteBooking|#e983e2c4-438b-4d1d-a283-60e8c88c0e29]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}2{column}{section}
                 {expand}
             {warning}
@@ -111,7 +127,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#1fe92f11-ba8a-48f6-a3ee-5c0bc9534e7e]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#ecd21a25-252f-4399-9366-8bd5faf3cf5a]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}3{column}{section}
                 {expand}
             {warning}
@@ -120,7 +136,7 @@ Method Not Allowed
 ^ }
                 {expand:Details...}
                     {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#1fe92f11-ba8a-48f6-a3ee-5c0bc9534e7e]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#ecd21a25-252f-4399-9366-8bd5faf3cf5a]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}3{column}{section}
                 {expand}
             {warning}
@@ -128,7 +144,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 404{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#91c02ba4-b7c6-4c44-8958-bb2000117076]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#f403bb4e-2526-420c-913e-3cbc75e10480]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}3{column}{section}
                 {expand}
             {warning}
@@ -136,7 +152,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#1ce9e212-df79-4414-aaf5-0edaf82c3fcf]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#b52ef315-a5ca-4eab-a71c-2f76e6a5fe01]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}3{column}{section}
                 {expand}
             {warning}
@@ -145,7 +161,15 @@ Method Not Allowed
 ^ }
                 {expand:Details...}
                     {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#1ce9e212-df79-4414-aaf5-0edaf82c3fcf]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#b52ef315-a5ca-4eab-a71c-2f76e6a5fe01]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}3{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 201 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 201 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[DeleteBooking|#44d80762-08c1-46a8-b886-45da8c342689]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}3{column}{section}
                 {expand}
             {warning}
@@ -153,7 +177,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#da4f0771-6299-4352-ab43-f4924b4eca4b]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#96bea979-daae-445e-a7e7-c6e5c522fc89]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}4{column}{section}
                 {expand}
             {warning}
@@ -162,7 +186,7 @@ Method Not Allowed
 ^ }
                 {expand:Details...}
                     {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#da4f0771-6299-4352-ab43-f4924b4eca4b]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#96bea979-daae-445e-a7e7-c6e5c522fc89]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}4{column}{section}
                 {expand}
             {warning}
@@ -170,7 +194,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 404{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#4a016724-55c3-44f0-bdb0-afc46658e975]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#af9f8768-9b4a-4622-b0ef-44aece4e5307]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}4{column}{section}
                 {expand}
             {warning}
@@ -178,7 +202,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#04216faf-0098-4726-8e67-5e8ee893d90f]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#e003c254-cd5a-4978-8395-6d89daff0e40]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}4{column}{section}
                 {expand}
             {warning}
@@ -187,7 +211,15 @@ Method Not Allowed
 ^ }
                 {expand:Details...}
                     {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#04216faf-0098-4726-8e67-5e8ee893d90f]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#e003c254-cd5a-4978-8395-6d89daff0e40]{column}{section}
+                        {section}{column:width=30%}Iteration{column}{column:width:70%}4{column}{section}
+                {expand}
+            {warning}
+            {warning:title=AssertionError: Status code is 201 }
+                {expand:Details...}
+                        {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 201 but got 405{column}{section}
+                    {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[DeleteBooking|#bfabc054-cac6-455e-8f28-cba4f090bcab]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}4{column}{section}
                 {expand}
             {warning}
@@ -195,7 +227,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#c222d3e4-ed9c-403c-954f-a0e7733e8bf0]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#89e81dc5-da17-40d1-88c9-2f11c2ce6db4]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}5{column}{section}
                 {expand}
             {warning}
@@ -204,7 +236,7 @@ Method Not Allowed
 ^ }
                 {expand:Details...}
                     {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#c222d3e4-ed9c-403c-954f-a0e7733e8bf0]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking|#89e81dc5-da17-40d1-88c9-2f11c2ce6db4]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}5{column}{section}
                 {expand}
             {warning}
@@ -212,7 +244,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 404{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#1acc5a39-8081-4fc1-b5ae-c6cb446cb196]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[GetBooking|#be6ea5b9-d11c-4e87-8823-9cc5c84b9f9b]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}5{column}{section}
                 {expand}
             {warning}
@@ -220,7 +252,7 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 200 but got 405{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#6f5ae74f-0fdd-4be6-bd90-28900c7cac0a]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#f48fb928-5683-4fc0-9da8-8ea24d456796]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}5{column}{section}
                 {expand}
             {warning}
@@ -229,7 +261,7 @@ Method Not Allowed
 ^ }
                 {expand:Details...}
                     {section}{column:width=30%}Location{column}{column:width:70%}test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#6f5ae74f-0fdd-4be6-bd90-28900c7cac0a]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[PartialUpdateBooking Copy|#f48fb928-5683-4fc0-9da8-8ea24d456796]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}5{column}{section}
                 {expand}
             {warning}
@@ -237,13 +269,13 @@ Method Not Allowed
                 {expand:Details...}
                         {section}{column:width=30%}Description{column}{column:width:70%}expected response to have status code 201 but got 405{column}{section}
                     {section}{column:width=30%}Location{column}{column:width:70%}assertion:0 in test-script{column}{section}
-                    {section}{column:width=30%}Request{column}{column:width:70%}[DeleteBooking|#c991f357-207a-4505-90d3-5fd8f79aa9b9]{column}{section}
+                    {section}{column:width=30%}Request{column}{column:width:70%}[DeleteBooking|#910201b0-2762-4a7f-9de3-89a510986364]{column}{section}
                         {section}{column:width=30%}Iteration{column}{column:width:70%}5{column}{section}
                 {expand}
             {warning}
 h2. Requests
 
-            {anchor:05b06f58-4ba1-49cd-b3dd-fbc86cba5244 }
+            {anchor:023cbb69-f16a-4ae7-a3ef-fec8c9d9f5b2 }
                 {tip:title=auth }
                     {expand:Details...}
                         
@@ -251,7 +283,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/auth|https://restful-booker.herokuapp.com/auth]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}93ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}27B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -277,7 +309,7 @@ h2. Requests
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
                         {
-                          "token": "ae31272545b1fed"
+                          "token": "67aab89e5fd48be"
                         }{code}
                                     {column}
                                 {section}
@@ -291,7 +323,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:ad038adc-664a-4687-a244-98d37f6743aa }
+            {anchor:e8147676-5ac6-4db3-9dd0-e1b92095230a }
                 {tip:title=GetBookingIds }
                     {expand:Details...}
                         
@@ -299,8 +331,8 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/|https://restful-booker.herokuapp.com/booking/]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}74ms{column}{section}
-                            {section}{column:width=30%}Size of request{column}{column:width:70%}69B{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}63ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}2B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
                             {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
@@ -312,20 +344,7 @@ h2. Requests
                                     {column:width=30%}Response body{column}
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
-                        [
-                          {
-                            "bookingid": 43
-                          },
-                          {
-                            "bookingid": 42
-                          },
-                          {
-                            "bookingid": 44
-                          },
-                          {
-                            "bookingid": 41
-                          }
-                        ]{code}
+                        []{code}
                                     {column}
                                 {section}
                         
@@ -338,7 +357,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:0ea467c2-ef55-429c-9a46-5df1f6ca520c }
+            {anchor:3ad8a1ff-59d8-46ae-b62f-aeb01e60f7e5 }
                 {tip:title=GetBooking }
                     {expand:Details...}
                         
@@ -346,7 +365,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -365,7 +384,7 @@ h2. Requests
                         
                     {expand}
                 {tip}
-            {anchor:56114fa2-c295-43c0-9079-715d7fe9abbb }
+            {anchor:9667c2ba-ea38-4fc0-a581-69974b84daaa }
                 {tip:title=CreateBooking }
                     {expand:Details...}
                         
@@ -373,7 +392,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking|https://restful-booker.herokuapp.com/booking]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}66ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}195B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}9{column}{section}
@@ -406,7 +425,7 @@ h2. Requests
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
                         {
-                          "bookingid": 45,
+                          "bookingid": 21,
                           "booking": {
                             "firstname": "june",
                             "lastname": "kape",
@@ -433,15 +452,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:bd9a0599-2cbc-4d24-92e0-38d949b4cee8 }
+            {anchor:471741b9-1370-4585-94f0-b5005d2156aa }
                 {tip:title=UpdateBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}PUT{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/42|https://restful-booker.herokuapp.com/booking/42]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/21|https://restful-booker.herokuapp.com/booking/21]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}66ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}168B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}12{column}{section}
@@ -498,15 +517,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:75993307-9254-4e1f-862a-e713bc79458d }
+            {anchor:29641489-bbaa-4fbd-b9aa-965bd28e6de1 }
                 {warning:title=PartialUpdateBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/2|https://restful-booker.herokuapp.com/booking/2]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}72ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -544,15 +563,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:c69de93a-25a7-4254-8565-cbddf1d1e4c2 }
+            {anchor:f6aac3aa-24b3-4457-b01a-a2166aef4f54 }
                 {tip:title=DeleteBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/44|https://restful-booker.herokuapp.com/booking/44]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/21|https://restful-booker.herokuapp.com/booking/21]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}63ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -578,7 +597,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:bb53ddde-f282-4659-8f8f-11908a919520 }
+            {anchor:3009852e-da4c-429b-ad0c-3c84a463f4d9 }
                 {tip:title=ping }
                     {expand:Details...}
                         
@@ -586,7 +605,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/ping|https://restful-booker.herokuapp.com/ping]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}68ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}71ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -612,7 +631,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:c7b3cadf-2c06-46a1-8f53-dbbbfe931ab0 }
+            {anchor:4f93e873-b441-4bcb-a2ca-24f211bc3a80 }
                 {warning:title=GetBooking }
                     {expand:Details...}
                         
@@ -620,7 +639,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}59ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -646,15 +665,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:7b51e6c3-e811-4db9-9307-cee73040ebb6 }
+            {anchor:302a7523-52fd-4b6a-a7b3-80cbec6b382d }
                 {warning:title=PartialUpdateBooking Copy }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/3|https://restful-booker.herokuapp.com/booking/3]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}59ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}91ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -692,28 +711,28 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:a4393dfd-310b-4c03-b18f-ae4ba0bd5c18 }
-                {tip:title=DeleteBooking }
+            {anchor:eb415c8d-73ee-4c3c-8b48-1fe20be87cfa }
+                {warning:title=DeleteBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/41|https://restful-booker.herokuapp.com/booking/41]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}67ms{column}{section}
-                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}71ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
-                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
-                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}3{column}{section}
                         
-                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
                         
                         
                                 {section}
                                     {column:width=30%}Response body{column}
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
-                        Created{code}
+                        Method Not Allowed{code}
                                     {column}
                                 {section}
                         
@@ -721,12 +740,12 @@ h2. Requests
                                     {column:width=30%}Tests{column}
                                     {column:width=70%}
                                         ||Name||Pass count||Fail count||
-                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |Status code is 201|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=3|subtle=false}|
                                     {column}
                                 {section}
                     {expand}
-                {tip}
-            {anchor:f216da7c-7138-459e-8030-0632ac9936e6 }
+                {warning}
+            {anchor:ba77ecd9-638c-46d5-ab6e-761f6e030de2 }
                 {tip:title=auth }
                     {expand:Details...}
                         
@@ -734,7 +753,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/auth|https://restful-booker.herokuapp.com/auth]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}76ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}27B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -760,7 +779,7 @@ h2. Requests
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
                         {
-                          "token": "c2bd6e87bc0f24e"
+                          "token": "9a7c46c1540f079"
                         }{code}
                                     {column}
                                 {section}
@@ -774,7 +793,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:17472457-fd80-40c1-9dc3-05f87e40662f }
+            {anchor:3284ab12-34dd-49b7-a77c-21248a38ada1 }
                 {tip:title=GetBookingIds }
                     {expand:Details...}
                         
@@ -782,8 +801,8 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/|https://restful-booker.herokuapp.com/booking/]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
-                            {section}{column:width=30%}Size of request{column}{column:width:70%}52B{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}79ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}2B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
                             {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
@@ -795,17 +814,7 @@ h2. Requests
                                     {column:width=30%}Response body{column}
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
-                        [
-                          {
-                            "bookingid": 43
-                          },
-                          {
-                            "bookingid": 45
-                          },
-                          {
-                            "bookingid": 42
-                          }
-                        ]{code}
+                        []{code}
                                     {column}
                                 {section}
                         
@@ -818,7 +827,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:e9399c6c-eed8-44d6-8ec6-57cc0785179b }
+            {anchor:38e102d2-26d3-4175-bb82-883acff0a0ea }
                 {tip:title=GetBooking }
                     {expand:Details...}
                         
@@ -826,7 +835,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}59ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -845,7 +854,7 @@ h2. Requests
                         
                     {expand}
                 {tip}
-            {anchor:a81d0c26-ccb4-4884-a404-231f5a05e176 }
+            {anchor:b293dc35-57c7-4b81-9c12-b3e0ffcf71e3 }
                 {tip:title=CreateBooking }
                     {expand:Details...}
                         
@@ -853,7 +862,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking|https://restful-booker.herokuapp.com/booking]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}68ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}195B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}9{column}{section}
@@ -886,7 +895,7 @@ h2. Requests
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
                         {
-                          "bookingid": 46,
+                          "bookingid": 22,
                           "booking": {
                             "firstname": "Raj",
                             "lastname": "kumar",
@@ -913,15 +922,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:d5f2e28d-453e-472a-8c0a-854220674345 }
+            {anchor:6ecfec60-2312-4699-80ef-33de8cbd7075 }
                 {tip:title=UpdateBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}PUT{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/42|https://restful-booker.herokuapp.com/booking/42]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/22|https://restful-booker.herokuapp.com/booking/22]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}77ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}66ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}168B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}12{column}{section}
@@ -978,15 +987,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:eda6fc00-dad6-4ecc-a265-0b7439fef748 }
+            {anchor:d4d182e5-bcf5-4e7d-8493-facc62a6fc3c }
                 {warning:title=PartialUpdateBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/3|https://restful-booker.herokuapp.com/booking/3]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}69ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -1024,15 +1033,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:0ef12a36-4c6d-4b56-ac70-783dd61fb1c3 }
+            {anchor:99da25a8-93cd-43a4-8d39-22e556b57ecd }
                 {tip:title=DeleteBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/46|https://restful-booker.herokuapp.com/booking/46]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/22|https://restful-booker.herokuapp.com/booking/22]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}65ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -1058,7 +1067,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:d23358c1-a547-419a-9dfc-5aa38ed6099d }
+            {anchor:3abbd782-b8f9-41e8-9323-6fa4deb1375b }
                 {tip:title=ping }
                     {expand:Details...}
                         
@@ -1066,7 +1075,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/ping|https://restful-booker.herokuapp.com/ping]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}75ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -1092,7 +1101,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:0f2b6071-6e4d-4437-9e4a-b3ac69a5cd1e }
+            {anchor:8524567c-538f-43ee-9ed3-347cf6ecb46b }
                 {warning:title=GetBooking }
                     {expand:Details...}
                         
@@ -1100,7 +1109,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}96ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -1126,15 +1135,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:6f8b748c-eddd-45ac-af8a-6f6b80e144a2 }
+            {anchor:9c682f11-b498-4b67-9f74-fc91f4d0ac78 }
                 {warning:title=PartialUpdateBooking Copy }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}395ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -1172,28 +1181,28 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:201bfd34-0583-4e68-a1ec-c0726787e481 }
-                {tip:title=DeleteBooking }
+            {anchor:e983e2c4-438b-4d1d-a283-60e8c88c0e29 }
+                {warning:title=DeleteBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/42|https://restful-booker.herokuapp.com/booking/42]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
-                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}154ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
-                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
-                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}3{column}{section}
                         
-                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
                         
                         
                                 {section}
                                     {column:width=30%}Response body{column}
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
-                        Created{code}
+                        Method Not Allowed{code}
                                     {column}
                                 {section}
                         
@@ -1201,12 +1210,12 @@ h2. Requests
                                     {column:width=30%}Tests{column}
                                     {column:width=70%}
                                         ||Name||Pass count||Fail count||
-                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |Status code is 201|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=3|subtle=false}|
                                     {column}
                                 {section}
                     {expand}
-                {tip}
-            {anchor:52dd82c7-5ade-4fbd-9936-f44e4f5783c7 }
+                {warning}
+            {anchor:32b42ce0-a146-4f90-bff4-80adaf74d4d8 }
                 {tip:title=auth }
                     {expand:Details...}
                         
@@ -1214,7 +1223,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/auth|https://restful-booker.herokuapp.com/auth]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}27B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -1240,7 +1249,7 @@ h2. Requests
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
                         {
-                          "token": "3641603623d03ca"
+                          "token": "1006625b7409680"
                         }{code}
                                     {column}
                                 {section}
@@ -1254,7 +1263,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:45cb2285-d646-4273-a11f-938a56a83125 }
+            {anchor:220ccefa-c6ea-4847-84d7-1bbeaf795f4e }
                 {tip:title=GetBookingIds }
                     {expand:Details...}
                         
@@ -1263,7 +1272,7 @@ h2. Requests
                         
                         
                             {section}{column:width=30%}Time of request{column}{column:width:70%}66ms{column}{section}
-                            {section}{column:width=30%}Size of request{column}{column:width:70%}35B{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}2B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
                             {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
@@ -1275,14 +1284,7 @@ h2. Requests
                                     {column:width=30%}Response body{column}
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
-                        [
-                          {
-                            "bookingid": 43
-                          },
-                          {
-                            "bookingid": 45
-                          }
-                        ]{code}
+                        []{code}
                                     {column}
                                 {section}
                         
@@ -1295,7 +1297,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:d6877f5c-37a7-4460-91e3-5f8cc69e8fd5 }
+            {anchor:6f576a26-80a2-4983-a71b-7313e35e2546 }
                 {tip:title=GetBooking }
                     {expand:Details...}
                         
@@ -1322,7 +1324,7 @@ h2. Requests
                         
                     {expand}
                 {tip}
-            {anchor:1fcdbde2-9583-4e24-8ac6-48ae22d1aee1 }
+            {anchor:a2f64e8e-7480-4f46-afe7-e1b49a81c283 }
                 {tip:title=CreateBooking }
                     {expand:Details...}
                         
@@ -1330,7 +1332,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking|https://restful-booker.herokuapp.com/booking]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}196B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}9{column}{section}
@@ -1363,7 +1365,7 @@ h2. Requests
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
                         {
-                          "bookingid": 47,
+                          "bookingid": 23,
                           "booking": {
                             "firstname": "Sam",
                             "lastname": "Austin",
@@ -1390,15 +1392,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:ab87d362-4db8-41ac-9ddc-ebd0798f9291 }
+            {anchor:618da656-decb-4173-b8c8-3d8c04324110 }
                 {tip:title=UpdateBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}PUT{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/45|https://restful-booker.herokuapp.com/booking/45]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/23|https://restful-booker.herokuapp.com/booking/23]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}63ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}169B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}12{column}{section}
@@ -1455,7 +1457,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:1fe92f11-ba8a-48f6-a3ee-5c0bc9534e7e }
+            {anchor:ecd21a25-252f-4399-9366-8bd5faf3cf5a }
                 {warning:title=PartialUpdateBooking }
                     {expand:Details...}
                         
@@ -1463,7 +1465,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -1501,15 +1503,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:46fe159a-1b50-4b39-b281-99af29506bbf }
+            {anchor:d3ad7efd-9b0e-46e3-a65d-498d8ac7d643 }
                 {tip:title=DeleteBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/45|https://restful-booker.herokuapp.com/booking/45]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/23|https://restful-booker.herokuapp.com/booking/23]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}67ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -1535,7 +1537,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:3f974938-9308-40ab-ba11-5ac4f7ebe275 }
+            {anchor:16f3d6ac-bd4e-4b22-a77e-1e2e60b9899f }
                 {tip:title=ping }
                     {expand:Details...}
                         
@@ -1543,7 +1545,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/ping|https://restful-booker.herokuapp.com/ping]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}59ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -1569,7 +1571,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:91c02ba4-b7c6-4c44-8958-bb2000117076 }
+            {anchor:f403bb4e-2526-420c-913e-3cbc75e10480 }
                 {warning:title=GetBooking }
                     {expand:Details...}
                         
@@ -1577,7 +1579,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}239ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}259ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -1603,15 +1605,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:1ce9e212-df79-4414-aaf5-0edaf82c3fcf }
+            {anchor:b52ef315-a5ca-4eab-a71c-2f76e6a5fe01 }
                 {warning:title=PartialUpdateBooking Copy }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}65ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -1649,28 +1651,28 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:32105221-3bbe-4393-8470-a9b1b79bfa28 }
-                {tip:title=DeleteBooking }
+            {anchor:44d80762-08c1-46a8-b886-45da8c342689 }
+                {warning:title=DeleteBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/47|https://restful-booker.herokuapp.com/booking/47]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}68ms{column}{section}
-                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}58ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
-                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
-                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}3{column}{section}
                         
-                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
                         
                         
                                 {section}
                                     {column:width=30%}Response body{column}
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
-                        Created{code}
+                        Method Not Allowed{code}
                                     {column}
                                 {section}
                         
@@ -1678,12 +1680,12 @@ h2. Requests
                                     {column:width=30%}Tests{column}
                                     {column:width=70%}
                                         ||Name||Pass count||Fail count||
-                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |Status code is 201|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=3|subtle=false}|
                                     {column}
                                 {section}
                     {expand}
-                {tip}
-            {anchor:83586607-c1c5-459f-8ccf-7af8d860f5f6 }
+                {warning}
+            {anchor:167db502-fb1d-4ee2-b7f1-ffc4a1a3f81f }
                 {tip:title=auth }
                     {expand:Details...}
                         
@@ -1717,7 +1719,7 @@ h2. Requests
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
                         {
-                          "token": "25870c438c55f7c"
+                          "token": "e13a18291e52a74"
                         }{code}
                                     {column}
                                 {section}
@@ -1731,7 +1733,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:5d818a40-6756-4e7b-919a-83b12a77cf15 }
+            {anchor:b8897c62-8d60-434e-8ab9-af3b834bab84 }
                 {tip:title=GetBookingIds }
                     {expand:Details...}
                         
@@ -1739,8 +1741,8 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/|https://restful-booker.herokuapp.com/booking/]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
-                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}2B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
                             {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
@@ -1752,11 +1754,7 @@ h2. Requests
                                     {column:width=30%}Response body{column}
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
-                        [
-                          {
-                            "bookingid": 43
-                          }
-                        ]{code}
+                        []{code}
                                     {column}
                                 {section}
                         
@@ -1769,7 +1767,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:a5634512-76e2-4006-8d31-14c6ee1ebd4e }
+            {anchor:ca146987-1c2a-444b-9f9b-ec6d669deb29 }
                 {tip:title=GetBooking }
                     {expand:Details...}
                         
@@ -1777,7 +1775,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}81ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}101ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -1796,7 +1794,7 @@ h2. Requests
                         
                     {expand}
                 {tip}
-            {anchor:cdc78f3d-6ff4-4c41-8e4a-9f364e341625 }
+            {anchor:4167b912-25ae-4dfa-abd6-15406a20f09d }
                 {tip:title=CreateBooking }
                     {expand:Details...}
                         
@@ -1804,7 +1802,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking|https://restful-booker.herokuapp.com/booking]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}60ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}197B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}9{column}{section}
@@ -1837,7 +1835,7 @@ h2. Requests
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
                         {
-                          "bookingid": 48,
+                          "bookingid": 24,
                           "booking": {
                             "firstname": "Mike",
                             "lastname": "Morgan",
@@ -1864,15 +1862,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:8d40449c-eddf-4c4d-95d6-93880e7f797c }
+            {anchor:05115130-030b-4781-9b4a-ff7c84fbfbbf }
                 {tip:title=UpdateBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}PUT{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/43|https://restful-booker.herokuapp.com/booking/43]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/24|https://restful-booker.herokuapp.com/booking/24]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}66ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}170B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}12{column}{section}
@@ -1929,15 +1927,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:da4f0771-6299-4352-ab43-f4924b4eca4b }
+            {anchor:96bea979-daae-445e-a7e7-c6e5c522fc89 }
                 {warning:title=PartialUpdateBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}PATCH{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}59ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -1975,15 +1973,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:454a27bf-d911-4b77-8a93-13d25a0afdaa }
+            {anchor:1a04cd5f-acfd-43cc-b4f2-b1ad0da8ae69 }
                 {tip:title=DeleteBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/43|https://restful-booker.herokuapp.com/booking/43]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/24|https://restful-booker.herokuapp.com/booking/24]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}68ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}70ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -2009,7 +2007,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:2a032610-872e-4f26-b417-2eddb9342606 }
+            {anchor:7daa8dcc-fede-4bc7-bc00-a68561bea408 }
                 {tip:title=ping }
                     {expand:Details...}
                         
@@ -2017,7 +2015,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/ping|https://restful-booker.herokuapp.com/ping]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}63ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}73ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -2043,7 +2041,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:4a016724-55c3-44f0-bdb0-afc46658e975 }
+            {anchor:af9f8768-9b4a-4622-b0ef-44aece4e5307 }
                 {warning:title=GetBooking }
                     {expand:Details...}
                         
@@ -2051,7 +2049,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}71ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -2077,7 +2075,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:04216faf-0098-4726-8e67-5e8ee893d90f }
+            {anchor:e003c254-cd5a-4978-8395-6d89daff0e40 }
                 {warning:title=PartialUpdateBooking Copy }
                     {expand:Details...}
                         
@@ -2085,7 +2083,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}82ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -2123,28 +2121,28 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:e367b84d-c6a7-4678-812f-098300f865de }
-                {tip:title=DeleteBooking }
+            {anchor:bfabc054-cac6-455e-8f28-cba4f090bcab }
+                {warning:title=DeleteBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/48|https://restful-booker.herokuapp.com/booking/48]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
                             {section}{column:width=30%}Time of request{column}{column:width:70%}65ms{column}{section}
-                            {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
+                            {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
-                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
-                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
+                            {section}{column:width=30%}Total failed tests{column}{column:width:70%}3{column}{section}
                         
-                            {section}{column:width=30%}Status code{column}{column:width:70%}201{column}{section}
+                            {section}{column:width=30%}Status code{column}{column:width:70%}405{column}{section}
                         
                         
                                 {section}
                                     {column:width=30%}Response body{column}
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
-                        Created{code}
+                        Method Not Allowed{code}
                                     {column}
                                 {section}
                         
@@ -2152,12 +2150,12 @@ h2. Requests
                                     {column:width=30%}Tests{column}
                                     {column:width=70%}
                                         ||Name||Pass count||Fail count||
-                                            |Status code is 201|{status:colour=Green|title=3|subtle=false}|{status:colour=Grey|title=0|subtle=false}|
+                                            |Status code is 201|{status:colour=Grey|title=0|subtle=false}|{status:colour=Red|title=3|subtle=false}|
                                     {column}
                                 {section}
                     {expand}
-                {tip}
-            {anchor:65da4a31-0617-43db-b286-949c29fbb3e3 }
+                {warning}
+            {anchor:6afed41b-22d9-441e-a4cb-c110f2a4f05d }
                 {tip:title=auth }
                     {expand:Details...}
                         
@@ -2191,7 +2189,7 @@ h2. Requests
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
                         {
-                          "token": "237dfa034c86ba0"
+                          "token": "50027af5d61e12c"
                         }{code}
                                     {column}
                                 {section}
@@ -2205,7 +2203,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:2621a60a-b85d-425d-8a53-437d67baf009 }
+            {anchor:183996ae-1e83-48d4-96f5-54b805a43713 }
                 {tip:title=GetBookingIds }
                     {expand:Details...}
                         
@@ -2213,7 +2211,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/|https://restful-booker.herokuapp.com/booking/]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}63ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}2B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -2239,7 +2237,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:44d133aa-c5d8-465c-8aee-20822ec07525 }
+            {anchor:688b5414-23ca-4be1-bfe7-831c48b2b5e8 }
                 {tip:title=GetBooking }
                     {expand:Details...}
                         
@@ -2247,7 +2245,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}87ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -2266,7 +2264,7 @@ h2. Requests
                         
                     {expand}
                 {tip}
-            {anchor:abfec09a-beb6-4e35-baf9-a9fd619bebcf }
+            {anchor:5f139e31-12bb-4f04-99e1-f5acda5ed793 }
                 {tip:title=CreateBooking }
                     {expand:Details...}
                         
@@ -2274,7 +2272,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking|https://restful-booker.herokuapp.com/booking]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}90ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}198B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}9{column}{section}
@@ -2307,7 +2305,7 @@ h2. Requests
                                     {column:width=70%}
                                         {code:language=js|linenumbers=true}
                         {
-                          "bookingid": 49,
+                          "bookingid": 25,
                           "booking": {
                             "firstname": "Brett",
                             "lastname": "Ramsey",
@@ -2334,15 +2332,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:fbdea96f-6093-452b-968e-07c5e60ff7d8 }
+            {anchor:e7e789d4-2dfc-4651-93c1-e9cf0446a1e5 }
                 {tip:title=UpdateBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}PUT{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/49|https://restful-booker.herokuapp.com/booking/49]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/25|https://restful-booker.herokuapp.com/booking/25]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}65ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}67ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}171B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}12{column}{section}
@@ -2399,7 +2397,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:c222d3e4-ed9c-403c-954f-a0e7733e8bf0 }
+            {anchor:89e81dc5-da17-40d1-88c9-2f11c2ce6db4 }
                 {warning:title=PartialUpdateBooking }
                     {expand:Details...}
                         
@@ -2407,7 +2405,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}61ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -2445,15 +2443,15 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:722b9206-443f-416f-a868-5fb7d29970ac }
+            {anchor:462ff3cf-9bcf-497b-8228-92f79317a056 }
                 {tip:title=DeleteBooking }
                     {expand:Details...}
                         
                                 {section}{column:width=30%}Method{column}{column:width:70%}DELETE{column}{section}
-                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/49|https://restful-booker.herokuapp.com/booking/49]{column}{section}
+                                {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/25|https://restful-booker.herokuapp.com/booking/25]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}64ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}72ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -2479,7 +2477,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:addee9ec-10f0-477c-aacb-7005354d9859 }
+            {anchor:721ab0bb-7259-41ce-a859-694eaf822a6a }
                 {tip:title=ping }
                     {expand:Details...}
                         
@@ -2487,7 +2485,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/ping|https://restful-booker.herokuapp.com/ping]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}59ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}66ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}7B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}3{column}{section}
@@ -2513,7 +2511,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {tip}
-            {anchor:1acc5a39-8081-4fc1-b5ae-c6cb446cb196 }
+            {anchor:be6ea5b9-d11c-4e87-8823-9cc5c84b9f9b }
                 {warning:title=GetBooking }
                     {expand:Details...}
                         
@@ -2521,7 +2519,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/1|https://restful-booker.herokuapp.com/booking/1]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}62ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}74ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}9B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -2547,7 +2545,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:6f5ae74f-0fdd-4be6-bd90-28900c7cac0a }
+            {anchor:f48fb928-5683-4fc0-9da8-8ea24d456796 }
                 {warning:title=PartialUpdateBooking Copy }
                     {expand:Details...}
                         
@@ -2555,7 +2553,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}63ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}109ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -2593,7 +2591,7 @@ h2. Requests
                                 {section}
                     {expand}
                 {warning}
-            {anchor:c991f357-207a-4505-90d3-5fd8f79aa9b9 }
+            {anchor:910201b0-2762-4a7f-9de3-89a510986364 }
                 {warning:title=DeleteBooking }
                     {expand:Details...}
                         
@@ -2601,7 +2599,7 @@ h2. Requests
                                 {section}{column:width=30%}URL{column}{column:width:70%}[https://restful-booker.herokuapp.com/booking/0|https://restful-booker.herokuapp.com/booking/0]{column}{section}
                         
                         
-                            {section}{column:width=30%}Time of request{column}{column:width:70%}65ms{column}{section}
+                            {section}{column:width=30%}Time of request{column}{column:width:70%}83ms{column}{section}
                             {section}{column:width=30%}Size of request{column}{column:width:70%}18B{column}{section}
                         
                             {section}{column:width=30%}Total passed tests{column}{column:width:70%}0{column}{section}
@@ -2634,5 +2632,5 @@ h2. Requests
 
 
     {excerpt:hidden=true|atlassian-macro-output-type=BLOCK}
-        {status:colour=Red|title=FAILED (26 errors)|subtle=false} Wed Apr 14 2021 15:05:24 GMT-0500 (Central Daylight Time)
+        {status:colour=Red|title=FAILED (30 errors)|subtle=false} Wed Apr 14 2021 21:44:49 GMT-0500 (Central Daylight Time)
     {excerpt}
