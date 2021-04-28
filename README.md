@@ -1,14 +1,17 @@
 ## various npm command 
 **Getting Started with Angular**
 - Refer the URL: [https://www.npmjs.com/package/newman]
-- `node --version`
-- `npm --version`
+-
+- 
 
 | command | explanation |
 | ------ | ------ |
+| `node --version`|Check Node version installed|
+|`npm --version`|check npm version installed|
+|`ng --version`| check Angular CLI version|
 |`- g`| global|
 |`- i`|local to the folder|
-|`ng --version`| check Angular CLI version|
+
 |`npm init --yes` |  [created package.json]|
 
 **Key packages**
