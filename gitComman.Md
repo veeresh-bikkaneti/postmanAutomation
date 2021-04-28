@@ -50,7 +50,14 @@
 
 > The overriding design goal for Markdown's
 
-## Tech
-- [AngularJS] - HTML enhanced for web apps!
+
+## Commands for working with local Branches
+| command | explanation |
+| ------ | ------ |
+|`git branch [branch-name]`| creates branch in your local|
+|`git checkout [branch-name]`| switch to the local branch you want to work with, files in the working directory are replaced with the onces in that branch|
+|` git checkout -b [branchName]`| will create a new branch, switch and checkout the code to the new branch|
+|`git push -U [origin] [branch]`| when we create a new new branch, this is not pushed into the github, only when we use -U, specify orign and branch|
+
 
 
