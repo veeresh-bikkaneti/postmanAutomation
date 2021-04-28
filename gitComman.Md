@@ -43,9 +43,12 @@
 | add SSH key to SSH Agent||
 | `eval $(ssh-agent -s)` |SSH agent is running|
 |`ssh-add ~/.ssh/id_rsa`|Adding SSH key using SSH-Add to the specified directory|
-|let the github know SSH key was added|
-| usually created in C:\Users\vneti\.ssh|
-| copy the file contents of `id_rsa.pub` file and paste it in github->settings->SSH and GPG keys->SSH keys ->New SSH Key|
+
+- let the github know SSH key was added; usually created in C:\Users\vneti\.ssh
+- copy the file contents of `id_rsa.pub` file and paste it in github->settings->SSH and GPG keys->SSH keys ->New SSH Key
+
+| command | explanation |
+| ------ | ------ |
 |`ssh -T git@github.com`| authenticates your machines to github with SSH key we generated.|
 
 > The overriding design goal for Markdown's
