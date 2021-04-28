@@ -51,8 +51,6 @@
 | ------ | ------ |
 |`ssh -T git@github.com`| authenticates your machines to github with SSH key we generated.|
 
-> The overriding design goal for Markdown's
-
 
 ## Commands for working with local Branches
 | command | explanation |
@@ -64,3 +62,4 @@
 |`git branch -r`| show all local branches|
 
 
+> The overriding design goal for Markdown's
