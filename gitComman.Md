@@ -29,7 +29,7 @@
 |`git add .` |add all files|
 |`git commit -m "Nww commit"`| commit new files|
 |`git commit -am "all modified Files"`| commit all new and modified files|
-|`git log` | check the log of commits|
+|`git log` | check the log of commits |
 
 
 ### SSH Key Vs HTTP
