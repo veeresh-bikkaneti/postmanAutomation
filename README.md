@@ -1,9 +1,5 @@
 ## various npm command 
 **Getting Started with Angular**
-- Refer the URL: [https://www.npmjs.com/package/newman]
--
-- 
-
 | command | explanation |
 | ------ | ------ |
 | `node --version`|Check Node version installed|
@@ -22,6 +18,7 @@
 
 **API documentation reference**
 - [https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking]
+- Refer the URL: [https://www.npmjs.com/package/newman] 
 
 **Run Test**
 - `npm run test`
